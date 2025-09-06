@@ -1,0 +1,18 @@
+#container {
+  width: 750px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#top {
+  height: 175px;
+  background: url(../image/detalhe-topo.png) no-repeat right top;
+  padding-top: 25px;
+}
+
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url(../image/logo.png) no-repeat center;
+  text-indent: -3000px;
+}

@@ -9,9 +9,8 @@
 }
 
 body {
-  font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: #fff;
+  background: #fff url(../image/fundo.png) repeat-x left top;;
 }
 
 a:link, a:visited {

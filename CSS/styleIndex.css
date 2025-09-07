@@ -58,3 +58,43 @@ body.fotos #nav a#fotos {
   color: #fff;
   cursor: text;
 }
+
+#content {
+  margin-top: 60px;
+  background: #f5f5f5;
+}
+
+#primary {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+  background: blue;
+}
+
+#secondary {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+  background: green;
+}
+
+#lateral {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+  background: red;
+}
+
+footer {
+  clear: both;
+  background: #294c71;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#footer {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}

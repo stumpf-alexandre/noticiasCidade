@@ -10,9 +10,9 @@
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: #fff url(../image/fundo.png) repeat-x left top;;
+  background: #fff url(../image/fundo.png) repeat-x left top;
 }
 
 a:link, a:visited {
-  color: #000;;
+  color: #000;
 }

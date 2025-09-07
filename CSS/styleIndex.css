@@ -86,6 +86,7 @@ body.fotos #nav a#fotos {
   background: #f9f9f9 url(../image/marcador.png) no-repeat left center;
   padding-left: 20px;
   color: #a1a1a1;
+
 }
 
 label {
@@ -119,9 +120,54 @@ input.submit {
   width: 555px;
 }
 
+
 #one-columns #primary {
   width: 750px;
   margin: 0 0 20px 0;
+}
+
+img {
+  border: 1px solid #dfdfdf;
+}
+
+.emphasis h3,
+.interview h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.emphasis h3 {
+  background: #b10333;
+  color: #fff;
+}
+
+/*Lista noticias*/
+#news-list li {
+  height: 65px;
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+}
+
+#news-list li a img {
+  float: left;
+  margin: 5px;
+}
+
+#news-list li a h3 {
+  font-size: 0.8em;
+  margin: 4px 0;
+  color: #3e7ab9;
+}
+
+#news-list li a p {
+  font-size: 0.7em;
+}
+
+#news-list li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
 /*Conteudo secundario*/
@@ -129,6 +175,16 @@ input.submit {
   width: 270px;
   float: left;
   margin: 0 0 20px 15px;
+}
+
+.interview h3 {
+  background: #de003e;
+}
+
+.emphasis a,
+.interview a {
+  color: #b10333;
+  text-decoration: underline #b10333;
 }
 
 /*Caixas*/

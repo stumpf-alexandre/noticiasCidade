@@ -74,6 +74,40 @@ body.fotos #nav a#fotos {
   margin: 0 0 20px -750px;
 }
 
+#lateral ul a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+  background: #f9f9f9 url(../image/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: #a1a1a1;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  width: 160px;
+  font-size: 0.9em;
+  padding: 5px;
+  background: #fff;
+}
+
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+  padding: 5px;
+}
+
 /*Conteudo primario*/
 #primary {
   width: 270px;
